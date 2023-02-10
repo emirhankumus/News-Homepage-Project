@@ -1,0 +1,24 @@
+.navbar {
+    width: 75%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__list {
+        height: 60%;
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__link {
+        color: $color-secondary-blue;
+        transition: 0.5s ease;
+
+        &:hover {
+            color: $color-red;
+        }
+    }
+}

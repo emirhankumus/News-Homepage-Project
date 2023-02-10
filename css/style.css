@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Inter', sans-serif; }
+
+body {
+  background-color: #fffdfa; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.navbar {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar__list {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .navbar__link {
+    color: #5d5f79;
+    transition: 0.5s ease; }
+    .navbar__link:hover {
+      color: #f15e50; }
+
+.header {
+  height: 10rem;
+  display: flex;
+  justify-content: center; }
